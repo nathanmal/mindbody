@@ -1,0 +1,20 @@
+{
+    "name": "nathan/mindbody",
+    "description": "PHP Library for Mindbody API V6",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Nathanmal\\Mindbody\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nathan Malachowski",
+            "email": "nathanmal@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    }
+}
